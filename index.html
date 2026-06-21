@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Speaki Cuayo Publisher and YouTube API Tools</title>
+  <meta name="description" content="Speaki Cuayo Publisher helps creators prepare short-form videos and manage authorized YouTube channel metadata, localizations, and comment replies.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f3ee;
+      --ink: #202124;
+      --muted: #5f6368;
+      --line: #ddd4ca;
+      --panel: #fffaf3;
+      --accent: #6d3df5;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: var(--ink);
+      background: var(--bg);
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin-top: 34px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    p {
+      max-width: 760px;
+    }
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin: 28px 0;
+    }
+    .item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      background: var(--panel);
+    }
+    .item strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+    footer {
+      margin-top: 44px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Speaki Cuayo Publisher</h1>
+    <p class="lead">
+      A web-based publishing assistant and owner-operated YouTube API toolset
+      for creators who prepare original short-form videos, maintain channel
+      metadata, manage localizations, and review creator replies.
+    </p>
+    <p>
+      Speaki Cuayo Publisher helps approved creators organize short videos,
+      review captions and metadata, and send selected content to connected
+      platforms after the creator authorizes each connection through the
+      platform's official login flow. For YouTube, the owner-operated workflow
+      uses the official YouTube Data API to maintain the Speaki Cuayo channel,
+      update metadata and localizations, and manage approved creator replies.
+    </p>
+
+    <div class="grid" aria-label="Service features">
+      <div class="item">
+        <strong>Creator-controlled publishing</strong>
+        Videos are selected by the creator before they are uploaded or
+        prepared as a draft for review.
+      </div>
+      <div class="item">
+        <strong>Connected account authorization</strong>
+        The service uses OAuth permissions requested only for account
+        identification and content publishing.
+      </div>
+      <div class="item">
+        <strong>YouTube API maintenance</strong>
+        YouTube access is used for owner-authorized channel metadata,
+        localizations, comment triage, and approved creator replies.
+      </div>
+      <div class="item">
+        <strong>Short-form workflow</strong>
+        Captions, hashtags, posting options, and publishing records are kept
+        focused on creator video workflows.
+      </div>
+    </div>
+
+    <h2>Legal and support links</h2>
+    <p>
+      <a href="./terms.html">Terms of Service</a><br>
+      <a href="./privacy.html">Privacy Policy</a><br>
+      <a href="./data-deletion.html">Data Deletion Instructions</a>
+    </p>
+
+    <h2>Authorization callbacks</h2>
+    <p>
+      These pages support OAuth redirects for creators who connect accounts:
+      <a href="./auth/callback/">Authorization Callback</a>,
+      <a href="./auth/callback/desktop/">Desktop Authorization Callback</a>, and
+      <a href="./meta/callback/">Meta Callback</a>. YouTube authorization is
+      handled through Google's official OAuth flow and the public policy pages
+      linked above.
+    </p>
+
+    <footer>
+      Contact: <a href="mailto:yangs77771@gmail.com">yangs77771@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
